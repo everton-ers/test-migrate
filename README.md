@@ -1,7 +1,3 @@
-test-migrate
-============
-
-
 
 ######################################
 Migrar um repo SVN para o Github
@@ -11,7 +7,7 @@ Destino:
 git@github.com:everton-ers/test-migrate.git
 
 Origem:
-git svn clone https://cesmactex.svn.codeplex.com/svn
+http://latex-uhm-thesis.googlecode.com/svn/trunk/
 
 tentativa para trazer projeto svn com svn2git (nao funcionou)
 $ ruby /var/lib/gems/1.8/gems/svn2git-2.2.2/bin/svn2git https://cesmactex.svn.codeplex.com/svn
